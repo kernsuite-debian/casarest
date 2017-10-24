@@ -5,7 +5,7 @@ Maintainer: Gijs Molenaar <gijs@pythonic.nl>
 Build-Depends: debhelper (>= 8.0.0), cmake, casacore-dev, libboost-dev,
  wcslib-dev, libcfitsio3-dev, libboost-system-dev, libboost-thread-dev, gfortran,
  liblapack-dev, libblas-dev
-Standards-Version: 3.9.2
+Standards-Version: 3.9.7
 Homepage: https://github.com/casacore/casarest/
 
 Package: casarest
@@ -13,3 +13,5 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Conflicts: lwimage
 Description: standalone radio interferometric imager derived from CASA 
+ The program lwimager (part of synthesis) is the main deliverable.
+
