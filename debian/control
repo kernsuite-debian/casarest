@@ -1,10 +1,18 @@
 Source: casarest
-Section: python
+Section: science
 Priority: extra
 Maintainer: KERN packaging <packaging@kernsuite.info>
-Build-Depends: debhelper (>= 8.0.0), cmake, casacore-dev, libboost-dev,
- wcslib-dev, libcfitsio3-dev, libboost-system-dev, libboost-thread-dev, gfortran,
- liblapack-dev, libblas-dev
+Build-Depends:
+ debhelper (>= 8.0.0),
+ cmake,
+ casacore-dev,
+ libboost-dev,
+ wcslib-dev,
+ libcfitsio3-dev,
+ libboost-system-dev,
+ libboost-thread-dev,
+ gfortran,liblapack-dev,
+ libblas-dev
 Standards-Version: 3.9.7
 Homepage: https://github.com/casacore/casarest/
 
