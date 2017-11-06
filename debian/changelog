@@ -1,3 +1,9 @@
+casarest (1.4.2-1ubuntu1) xenial; urgency=medium
+
+  * version bump to trigger rebuild against casacore 2.4.0
+
+ -- KERN packaging <packaging@kernsuite.info>  Mon, 06 Nov 2017 19:13:46 +0200
+
 casarest (1.4.2-1) xenial; urgency=medium
 
   * make debian files mit
