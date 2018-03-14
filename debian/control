@@ -8,7 +8,7 @@ Build-Depends:
  casacore-dev,
  libboost-dev,
  wcslib-dev,
- libcfitsio3-dev,
+ libcfitsio-dev,
  libboost-system-dev,
  libboost-thread-dev,
  gfortran,liblapack-dev,
