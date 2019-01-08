@@ -6,6 +6,8 @@ Build-Depends:
  debhelper (>= 8.0.0),
  cmake,
  casacore-dev,
+ casacore-tools,
+ casacore-data,
  libboost-dev,
  wcslib-dev,
  libcfitsio-dev,
