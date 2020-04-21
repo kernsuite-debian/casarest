@@ -32,12 +32,15 @@ To compile casarest you need to meet the following requirements:
 
 * cmake
 * g++
-* casacore (2.0 or later)
+* casacore (3.0 or later)
 * boost
 * wcslib
 * cfitsio
 * fortran 
 * hdf5 (optional)
+
+If you are still at casacore 2.0 then use casarest 1.4.2.
+
 
 On Debian / Ubuntu you can install these with:
 ``` 
@@ -61,6 +64,17 @@ cmake ..
 make 
 make install
 ```
+
+There are 4 components in the casarest package and you may not need all them. The four targets are: casa_components, casa_msvis, casa_calibration and casa_synthesis. You can make them individuallay by:
+```
+mkdir build
+cd build
+cmake ..
+make <choice of target>
+cmake -DCOMPONENT=<choice of target>  -P cmake_install.cmake 
+```
+Which will build and install only your choice of target.
+
 
 ## Ubuntu 14.04 packages
 
