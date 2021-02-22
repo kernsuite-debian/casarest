@@ -1,3 +1,10 @@
+casarest (1.7.0-1kern3) focal; urgency=medium
+
+  [ Athanaseus Javas Ramaila ]
+  * Updated casacore 
+
+ -- KERN packaging <packaging@kernsuite.info>  Mon, 22 Feb 2021 12:50:51 +0000
+
 casarest (1.7.0-1kern2) focal; urgency=medium
 
   [ Athanaseus Javas Ramaila ]
