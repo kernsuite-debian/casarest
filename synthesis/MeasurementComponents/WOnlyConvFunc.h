@@ -38,10 +38,10 @@
 #include <casacore/casa/Logging/LogIO.h>
 #include <casacore/casa/Logging/LogSink.h>
 #include <casacore/casa/Logging/LogOrigin.h>
+#include <casacore/casa/Arrays/ArrayFwd.h>
 
 namespace casacore { //# NAMESPACE CASACORE - BEGIN
   template<class T> class ImageInterface;
-  template<class T> class Matrix;
   class VisBuffer;
   //
   //-------------------------------------------------------------------------------------------
@@ -68,18 +68,6 @@ namespace casacore { //# NAMESPACE CASACORE - BEGIN
     virtual void setPolMap(const Vector<Int>& polMap) {wTerm_p->setPolMap(polMap);};
 
     virtual Bool findSupport(Array<Complex>& func, Float& threshold,Int& origin, Int& R);
-
-    //
-    // Pedgree baggage (NoOps).  
-    //
-    Bool makeAverageResponse(const VisBuffer& vb, 
-			     const ImageInterface<Complex>& image,
-			     ImageInterface<Float>& theavgPB,
-			     Bool reset=True) {};
-    Bool makeAverageResponse(const VisBuffer& vb, 
-			     const ImageInterface<Complex>& image,
-			     ImageInterface<Complex>& theavgPB,
-			     Bool reset=True) {};
   protected:
     void setSupport(Array<Complex>& convFunc, CFStore& cfs);
 
