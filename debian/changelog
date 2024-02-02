@@ -1,3 +1,10 @@
+casarest (1.8.1-2kern1) jammy; urgency=medium
+
+  [ Athanaseus Javas Ramaila ]
+  * Build for jammy
+
+ -- KERN packaging <packaging@kernsuite.info>  Fri, 02 Feb 2024 19:36:15 +0000
+
 casarest (1.8.1-1kern1) focal; urgency=medium
 
   [ Athanaseus Javas Ramaila ]
