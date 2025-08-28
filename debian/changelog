@@ -1,3 +1,11 @@
+casarest (1.9.2-1kern1) noble; urgency=medium
+
+  [ Athanaseus Javas Ramaila ]
+  * New upstream release 1.9.2
+  * Build for jammy
+
+ -- KERN packaging <packaging@kernsuite.info>  Thu, 28 Aug 2025 07:56:24 +0000
+
 casarest (1.8.1-2kern1) jammy; urgency=medium
 
   [ Athanaseus Javas Ramaila ]
